@@ -11,7 +11,7 @@ body {
 }
 
 .heading-container{ 
-    padding-top: 100px;
+    padding-top: 50px;
 }
 
 .heading-line {
@@ -26,7 +26,7 @@ body {
 }
 
 .items-container{
-    padding: 100px 100px 0 100px;
+    padding: 50px 100px 0 100px;
     display: flex;
     justify-content: space-between;
 }
@@ -39,10 +39,12 @@ body {
 }
 
 .tasbih-headers{
-    font-size: 20px;
+    font-size: 30px;
     font-weight: 700;
     text-align: center;
     padding-bottom: 40px;
+    text-transform: uppercase;
+    text-decoration: underline;
 }
 
 .increment-button{
@@ -55,6 +57,10 @@ body {
     border: none;
 }
 
+.increment-button:hover{
+    box-shadow: 2px 2px 20px black;
+}
+
 .decrement-button{
     background-color: red;
     color: white;
@@ -64,10 +70,35 @@ body {
     border-radius: 20px;
     border: none;
 }
+.decrement-button:hover{
+    box-shadow: 2px 2px 20px black;
+}
 
 .counter-p{
     font-size: 50px;
     text-align: center;
     padding-bottom: 40px;
     font-weight: normal;
+}
+
+.reset-button-container{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.reset-button{
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: #eedd44;
+    color: black;
+    font-weight: 900;
+    border: none;
+    border-radius: 50px;
+}
+
+.reset-button:hover{
+    color:yellow;
+    background-color: tomato;
+    box-shadow: 2px 2px 20px black;
 }
