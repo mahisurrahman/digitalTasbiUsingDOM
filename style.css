@@ -1,0 +1,73 @@
+* {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.heading-container{ 
+    padding-top: 100px;
+}
+
+.heading-line {
+    font-weight: 900;
+    font-size: 80px;
+    text-align: center;
+    font-size: 72px;
+    background: linear-gradient(to right, #f32170,
+    #ff6b08, #cf23cf, #eedd44);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.items-container{
+    padding: 100px 100px 0 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.items{
+    border: 1px solid lightgray;
+    box-shadow: 10px 5px 20px lightgray;
+    padding: 20px 30px;
+    border-radius: 20px;
+}
+
+.tasbih-headers{
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.increment-button{
+    background-color: green;
+    color: white;
+    font-size: 20px;
+    font-weight: 900;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+}
+
+.decrement-button{
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    font-weight: 900;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+}
+
+.counter-p{
+    font-size: 50px;
+    text-align: center;
+    padding-bottom: 40px;
+    font-weight: normal;
+}
