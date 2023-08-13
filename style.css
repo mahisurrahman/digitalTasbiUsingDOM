@@ -27,8 +27,9 @@ body {
 
 .items-container{
     padding: 50px 100px 0 100px;
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
 }
 
 .items{
@@ -45,6 +46,12 @@ body {
     padding-bottom: 40px;
     text-transform: uppercase;
     text-decoration: underline;
+}
+
+.buttons{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
 }
 
 .increment-button{
@@ -101,4 +108,16 @@ body {
     color:yellow;
     background-color: tomato;
     box-shadow: 2px 2px 20px black;
+}
+
+@media screen and (max-width: 768px){
+    .items-container{
+        grid-template-columns: repeat(1, 1fr);
+        padding: 50px 10px;
+    }
+
+    .buttons{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
